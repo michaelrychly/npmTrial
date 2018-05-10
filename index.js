@@ -1,6 +1,6 @@
 
 
-class app{
+class App{
   constructor(name){
     this.name = name;
   }
@@ -14,8 +14,8 @@ class app{
 }
 
 
-let see = new app("awesome");
+let app = new App("awesome");
 
-console.log(see.trial);
+console.log(app.trial);
 
-module.exports.app;
+module.exports = App;
